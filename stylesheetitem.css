@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    font-family: Myriad Pro,sans-serif;
+}
+
+    /* MENU */
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu .active {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+    
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+    /* ITEMS */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+      
+.price {
+    color: grey;
+    font-size: 22px;
+}
+      
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #0277BD;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+      
+.card button:hover {
+    opacity: 0.7;
+}
+
+    /* UPCOMING */
+.cardUp {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+      
+.priceUp {
+    color: grey;
+    font-size: 22px;
+}
+      
+.cardUp button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #4CAF50;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+      
+.cardUp button:hover {
+    opacity: 0.7;
+}
